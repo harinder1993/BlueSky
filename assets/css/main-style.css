@@ -215,6 +215,8 @@ table {
     max-width: 1041px;
     width: 100%;
     margin: 22px auto 0;
+    z-index: 1;
+    position: relative;
 }
 .banner_small_video {
 	position: relative;
@@ -296,3 +298,141 @@ table {
     line-height: 135%;
     text-decoration: none;
 }
+.bsky_banner_inner {
+    background-image: url(../images/cloud_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 133px 98px 74px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+section.bsky_banner {
+    position: relative;
+    top: -39px;
+}
+.common_title h3 {
+    color: #0B3A7C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.72px;
+}
+.common_title_btn {
+    color: #0B3A7C;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 135%;
+    text-decoration-line: underline;
+    display: table;
+    margin-left: auto;
+}
+
+/* pets_categories */
+
+ul.bsky_pets_categ_ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 21px;
+}
+.bsky_pets_categ_in {
+    display: flex;
+    width: 146px;
+    height: 177px;
+    padding: 14px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    border-radius: 15px;
+    border: 1px solid #D2D2D2;
+    transition: 0.3s all;
+}
+.bsky_pets_categ_a:hover .bsky_pets_categ_in {
+    background: rgba(210, 210, 210, 0.15);
+}
+.bsky_pets_categ_in img {
+    height: 67px;
+    object-fit: cover;
+    width: auto;
+    display: block;
+}
+.bsky_pets_categ_in p {
+    color: #0B3A7C;
+    text-align: center;
+    font-size: 16.972px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+}
+.bsky_pets_categ_a {
+    text-decoration: none;
+}
+.common_title {
+    margin-bottom: 48px;
+}
+.bsky_common_pets {
+    margin-top: 78px;
+    margin-bottom: 118px;
+}
+
+/* pets_categories close*/
+
+/*our specialty*/
+
+.bsky_our_specialty_inner {
+    border-radius: 15px;
+    background: #F2F8F8;
+    padding: 60px;
+}
+.specialty_card {
+    position: relative;
+    border-radius: 13.42px;
+    overflow: hidden;
+}
+.specialty_card img {
+    width: 100%;
+    display: block;
+}
+.specialty_card_text {
+    display: flex;
+    flex-direction: column;
+}
+.specialty_card_text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    margin-bottom: 8px;
+}
+.specialty_card_text h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.72px;
+    margin-bottom: 43px;
+}
+.specialty_card_text {
+    position: absolute;
+    bottom: 50px;
+    left: 36px;
+    right: 36px;
+    align-items: center;
+    z-index: 2;
+}
+.overlay_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(6, 31, 40, 0.00) 0%, rgba(0, 0, 0, 0.75) 100%), #D9D9D9;
+    
+}
+/*our specialty close*/
