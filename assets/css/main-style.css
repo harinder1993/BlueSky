@@ -275,6 +275,7 @@ table {
     align-items: center;
     flex-wrap: wrap;
 	grid-gap: 8px;
+    flex: 1;
 }
 .bsky_banner_text {
     display: flex;
@@ -312,10 +313,11 @@ table {
     border-radius: 15px;
     overflow: hidden;
 }
-section.bsky_banner {
+
+/* section.bsky_banner {
     position: relative;
     top: -39px;
-}
+} */
 .common_title h3 {
     color: #0B3A7C;
     font-size: 36px;
@@ -532,6 +534,7 @@ h2.ft-48 {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -0.96px;
+    display: inline-block;
 }
 .bsky_cta_large_text {
     width: 100%;
@@ -584,8 +587,8 @@ h2.ft-48 {
     line-height: 138%;
     text-transform: uppercase;
 }
-.ft-48.color_blue {
-    color: #0B3A7C;
+.ft-48.color_blue, .color_blue {
+    color: #0B3A7C !important;
 }
 .img_side_text {
     padding: 48px 60px;
@@ -745,10 +748,16 @@ h2.ft-48 {
     position: relative;
 }
 
+/* .customer_name {
+    display: flex;
+    align-items: center;
+    grid-gap: 11px;
+} */
 .customer_name {
     display: flex;
     align-items: center;
     grid-gap: 11px;
+    margin-top: 15px;
 }
 .customer_name h5 {
     color: #0B3A7C;
@@ -778,18 +787,29 @@ h2.ft-48 {
     line-height: 20.25px;
     margin-top: 19px;
 }
-.customer_img {
+/* .customer_img {
     width: 54px;
     height: auto;
     position: absolute;
     top: -30px;
     right: 50px;
+} */
+.customer_img {
+    width: 54px;
+    height: auto;
+    display: table !important;
+    margin-left: auto;
+    margin-top: -66px;
+    margin-right: 13px;
 }
 .testimonial_sponsor .rating_img {
     display: block;
 }
 .testimonial_card {
-    padding-top: 60px;
+    padding-top: 27px;
+}
+.testimonial_sponsor {
+    margin-bottom: 35px;
 }
 .testimonial_slider {
     margin: 0 -10px;
@@ -1051,13 +1071,22 @@ h5.pera_des {
     align-items: flex-start;
     grid-gap: 18px;
 }
-.bsky_clickable_card_inner > .row {
+/* .bsky_clickable_card_inner > .row {
     margin: 0 -10px;
 }
 
 .bsky_clickable_card_inner > .row > .col-md-4 {
     padding: 0 10px;
+} */
+
+.bsky_clickable_card_inner > .row > .col-md-4 {
+    padding: 10px;
 }
+.bsky_clickable_card_inner > .row{
+    margin: -10px;
+}
+
+
 .testimonial_without_ttl .testimonial_card_inner {
     padding: 36px 37px 20px;
     background: transparent;
@@ -1106,7 +1135,7 @@ h5.pera_des {
     color: #0B3A7C;
     font-size: 14.158px;
     font-weight: 600;
-    line-height: 109%;
+    line-height: 16px;
     border-radius: 50px;
     margin-right: 20px;
 }
@@ -1349,4 +1378,318 @@ h5.pera_des {
 }
 .specialty_cards_inner > .row > .col-md-6 {
     flex: 1;
+}
+.img_side_text_new hr {
+    margin: 26px 0;
+}
+.form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form_btn .get_btn {
+    margin-left: 0;
+    border-color: #0E2648;
+    color: #0E2648;
+    margin-right: 6px;
+}
+.bookform form input {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    padding: 15px 13px 15px 18px;
+    margin-bottom: 14px;
+}
+.table_side.bg_section {
+    padding: 84px 97px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.form_title {
+    color: #0B3A7C;
+    text-align: center;
+    font-size: 29.456px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.589px;
+    margin-bottom: 62px;
+}
+.form_title a {
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 13px;
+    color: #0B3A7C;
+    letter-spacing: -0.589px;
+    text-decoration: none;
+}
+.customer_follow .brand_icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 20px;
+}
+.brand_icons li img {
+    height: 31px;
+}
+.common_title .small_para {
+    max-width: 583px;
+    width: 100%;
+    margin-left: auto;
+}
+.sec-border {
+    border-radius: 15px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    padding: 35px 35px 66px 90px;
+}
+.bsky_huge_video_inner .video_banner{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.bsky_huge_video_inner {
+    position: relative;
+}
+.play_btn {
+    width: 101px;
+    height: 101px;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.full_bg_blue{
+    background-color: #0b3a7c;
+    padding-top: 105px;
+}
+.bsky_huge_video {
+    margin-bottom: -80px;
+}
+.full_bg_blue .faqs_text_side .ft-48 {
+    margin-bottom: 25px;
+}
+.full_bg_blue .faqs_text_side .approch_text {
+    padding: 0 45px 0 0;
+}
+.full_bg_blue .faqs_text_side .approch_text .pera_des {
+    margin-bottom: 39px;
+}
+.center_title {
+    text-align: center;
+}
+.center_title p {
+    color: #0B3A7C;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 137%;
+    max-width: 566px;
+    margin: 34px auto 0px;
+}
+.bluebg_card {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 15px 25px;
+    height: 100%;
+    min-height: 245px;
+}
+.bluebg_card_inner .pera_des {
+    color: #0B3A7C;
+    font-size: 18.305px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.bluebg_card_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-gap: 16px;
+}
+.bluebg_card_small {
+    color: #0B3A7C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+}
+.blue_card_gap {
+    margin-top: 27px;
+}
+.gray_text {
+    color: #D2D2D2;
+}
+.blue_line {
+    position: relative;
+}
+.blue_line:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #7CC7E7;
+    border-radius: 30px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.bluebg_card_title{
+    color: #0B3A7C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+}
+.bluebg_count {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color:#0b3a7c;
+    color: #FFF;
+    font-size: 14.158px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 7px;
+}
+.count_card .bluebg_card{
+    padding: 36px 29px 36px;
+}
+.color_orange{
+    background-color: #FF9900;
+}
+.color_pink{
+    background-color: #D381AD;
+}
+.color_lavender{
+    background-color: #8D81D3;
+}
+.color_green{
+    background-color: #88C980;
+}
+.common_banner .img_side_text {
+    padding: 48px 0 48px 80px;
+}
+.bsky_filter-list .active{
+    font-weight: 700;
+}
+.mb-39{
+    margin-bottom: -39px;
+}
+.clickable_card.blue_bg {
+    background-color: #0B3A7C;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 64px;
+}
+.blue_bg_btn .get_btn {
+    color: #0E2648;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 60px;
+    background: #FFF;
+    padding: 16px 23px;
+    text-decoration: none;
+    min-height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_light_blue{
+    background: linear-gradient(0deg, #F2F8F8 0%, #F2F8F8 100%), #E9F7FD !important;
+    border: 0 !important;
+}
+.bg_light_gray{    
+    background: #F7F7F7 !important;
+    border: 0 !important;
+}
+
+.arizona_logos ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-gap: 37px;
+}
+.arizona_logos {
+    position: absolute;
+    bottom: 36px;
+    left: 38px;
+    right: 38px;
+    z-index: 1;
+}
+.arizona_logos ul .arizona_text{
+    max-width: 100%;
+    width: 306px;
+    padding: 19px;
+}
+.arizona_logos ul .arizona_text p {
+    color: #0B3A7C;
+    font-size: 15.346px;
+    font-weight: 600;
+    line-height: 124%;
+    letter-spacing: -0.307px;
+}
+.arizona_logos .arizona_img {
+    width: auto;
+    height: 37px;
+}
+.icon_title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap:37px;
+    margin-bottom: 35px;
+}
+.icon_title_icon {
+    width: 75px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+}
+.icon_title_main {
+    flex: 1;
+    color: #0B3A7C;
+    font-size: 42.467px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.849px;
+}
+.icon_wd_form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 18px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    padding: 84px 68px 60px;
+}
+.without_bg_faq .bsky_faqs_inner {
+    background-color: transparent;
+}
+.without_bg_faq .faqs_accordion_side .accordion-item .accordion-button {
+    color: #0B3A7C;
+}
+.without_bg_faq .faqs_accordion_side .accordion-item .accordion-button > span {
+    background-color: #0B3A7C;
+    color: #ffffff;
+}
+.without_bg_faq .faqs_accordion_side .accordion-item {
+    border-color: #0B3A7C;
+}
+.faqs_text_side .pera_des {
+    margin-bottom: 39px;
+}
+.without_bg_faq .faqs_accordion_side .accordion-item .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.550781 12.8479L7.00061 7.00006L0.550781 1.15222' stroke='%230B3A7C'/%3E%3C/svg%3E");
+    background-size: 8px;
 }
