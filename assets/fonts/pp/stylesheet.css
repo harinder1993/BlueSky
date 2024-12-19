@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Blk.woff2') format('woff2'),
+        url('TTNormsPro-Blk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Bd.woff2') format('woff2'),
+        url('TTNormsPro-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Rg.woff2') format('woff2'),
+        url('TTNormsPro-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-XLt.woff2') format('woff2'),
+        url('TTNormsPro-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Md.woff2') format('woff2'),
+        url('TTNormsPro-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Normal';
+    src: url('TTNormsPro-Normal.woff2') format('woff2'),
+        url('TTNormsPro-Normal.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-XBd.woff2') format('woff2'),
+        url('TTNormsPro-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro ExtraBlack';
+    src: url('TTNormsPro-XBlk.woff2') format('woff2'),
+        url('TTNormsPro-XBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Lt.woff2') format('woff2'),
+        url('TTNormsPro-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Variable';
+    src: url('TTNormsProVariable.woff2') format('woff2'),
+        url('TTNormsProVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Th.woff2') format('woff2'),
+        url('TTNormsPro-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

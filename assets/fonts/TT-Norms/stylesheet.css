@@ -1,16 +1,7 @@
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-BlackItalic.woff2') format('woff2'),
-        url('TTNormsPro-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Black.woff2') format('woff2'),
-        url('TTNormsPro-Black.woff') format('woff');
+    src: url('TTNormsPro-Blk.woff2') format('woff2'),
+        url('TTNormsPro-Blk.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -18,8 +9,44 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-BoldItalic.woff2') format('woff2'),
-        url('TTNormsPro-BoldItalic.woff') format('woff');
+    src: url('TTNormsPro-BlkIt.woff2') format('woff2'),
+        url('TTNormsPro-BlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-BdIt.woff2') format('woff2'),
+        url('TTNormsProCond-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Bd.woff2') format('woff2'),
+        url('TTNormsProComp-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-BlkIt.woff2') format('woff2'),
+        url('TTNormsProComp-BlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-BdIt.woff2') format('woff2'),
+        url('TTNormsProComp-BdIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -27,17 +54,17 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-ExtraBoldItalic.woff2') format('woff2'),
-        url('TTNormsPro-ExtraBoldItalic.woff') format('woff');
+    src: url('TTNormsPro-BdIt.woff2') format('woff2'),
+        url('TTNormsPro-BdIt.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro ExtraBlack';
-    src: url('TTNormsPro-ExtraBlack.woff2') format('woff2'),
-        url('TTNormsPro-ExtraBlack.woff') format('woff');
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Blk.woff2') format('woff2'),
+        url('TTNormsProComp-Blk.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -45,71 +72,315 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Bold.woff2') format('woff2'),
-        url('TTNormsPro-Bold.woff') format('woff');
+    src: url('TTNormsPro-Bd.woff2') format('woff2'),
+        url('TTNormsPro-Bd.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Italic.woff2') format('woff2'),
-        url('TTNormsPro-Italic.woff') format('woff');
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-XBd.woff2') format('woff2'),
+        url('TTNormsProComp-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact ExtraBlack';
+    src: url('TTNormsProComp-XBlk.woff2') format('woff2'),
+        url('TTNormsProComp-XBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-DmBdIt.woff2') format('woff2'),
+        url('TTNormsProComp-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-It.woff2') format('woff2'),
+        url('TTNormsProComp-It.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-ExtraLight.woff2') format('woff2'),
-        url('TTNormsPro-ExtraLight.woff') format('woff');
-    font-weight: 200;
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-DmBd.woff2') format('woff2'),
+        url('TTNormsProComp-DmBd.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-ExtraLightItalic.woff2') format('woff2'),
-        url('TTNormsPro-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-ExtraBold.woff2') format('woff2'),
-        url('TTNormsPro-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Norms Pro ExtraBlack';
-    src: url('TTNormsPro-ExtraBlackItalic.woff2') format('woff2'),
-        url('TTNormsPro-ExtraBlackItalic.woff') format('woff');
+    font-family: 'TT Norms Pro Compact ExtraBlack';
+    src: url('TTNormsProComp-XBlkIt.woff2') format('woff2'),
+        url('TTNormsProComp-XBlkIt.woff') format('woff');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-MediumItalic.woff2') format('woff2'),
-        url('TTNormsPro-MediumItalic.woff') format('woff');
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-XLt.woff2') format('woff2'),
+        url('TTNormsProComp-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-XLtIt.woff2') format('woff2'),
+        url('TTNormsProComp-XLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-XBdIt.woff2') format('woff2'),
+        url('TTNormsProComp-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Rg.woff2') format('woff2'),
+        url('TTNormsProComp-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-MdIt.woff2') format('woff2'),
+        url('TTNormsProComp-MdIt.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Medium.woff2') format('woff2'),
-        url('TTNormsPro-Medium.woff') format('woff');
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Md.woff2') format('woff2'),
+        url('TTNormsProComp-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Lt.woff2') format('woff2'),
+        url('TTNormsProComp-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-Th.woff2') format('woff2'),
+        url('TTNormsProComp-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact Normal';
+    src: url('TTNormsProComp-NormalIt.woff2') format('woff2'),
+        url('TTNormsProComp-NormalIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-LtIt.woff2') format('woff2'),
+        url('TTNormsProComp-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact Normal';
+    src: url('TTNormsProComp-Normal.woff2') format('woff2'),
+        url('TTNormsProComp-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Blk.woff2') format('woff2'),
+        url('TTNormsProCond-Blk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Bd.woff2') format('woff2'),
+        url('TTNormsProCond-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Compact';
+    src: url('TTNormsProComp-ThIt.woff2') format('woff2'),
+        url('TTNormsProComp-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-BlkIt.woff2') format('woff2'),
+        url('TTNormsProCond-BlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*2nd start*/
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-DmBdIt.woff2') format('woff2'),
+        url('TTNormsProCond-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-XBdIt.woff2') format('woff2'),
+        url('TTNormsProExp-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-DmBd.woff2') format('woff2'),
+        url('TTNormsProCond-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond ExtraBlack';
+    src: url('TTNormsProCond-XBlk.woff2') format('woff2'),
+        url('TTNormsProCond-XBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-XBdIt.woff2') format('woff2'),
+        url('TTNormsProCond-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-XLtIt.woff2') format('woff2'),
+        url('TTNormsProCond-XLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-LtIt.woff2') format('woff2'),
+        url('TTNormsProCond-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond ExtraBlack';
+    src: url('TTNormsProCond-XBlkIt.woff2') format('woff2'),
+        url('TTNormsProCond-XBlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-It.woff2') format('woff2'),
+        url('TTNormsProCond-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-XBd.woff2') format('woff2'),
+        url('TTNormsProCond-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-XLt.woff2') format('woff2'),
+        url('TTNormsProCond-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Lt.woff2') format('woff2'),
+        url('TTNormsProCond-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Md.woff2') format('woff2'),
+        url('TTNormsProCond-Md.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -117,8 +388,318 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Light.woff2') format('woff2'),
-        url('TTNormsPro-Light.woff') format('woff');
+    src: url('TTNormsPro-DmBd.woff2') format('woff2'),
+        url('TTNormsPro-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond Normal';
+    src: url('TTNormsProCond-NormalIt.woff2') format('woff2'),
+        url('TTNormsProCond-NormalIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Th.woff2') format('woff2'),
+        url('TTNormsProCond-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond Normal';
+    src: url('TTNormsProCond-Normal.woff2') format('woff2'),
+        url('TTNormsProCond-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-ThIt.woff2') format('woff2'),
+        url('TTNormsProCond-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-Rg.woff2') format('woff2'),
+        url('TTNormsProCond-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Cond';
+    src: url('TTNormsProCond-MdIt.woff2') format('woff2'),
+        url('TTNormsProCond-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Blk.woff2') format('woff2'),
+        url('TTNormsProExp-Blk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-DmBdIt.woff2') format('woff2'),
+        url('TTNormsPro-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-BdIt.woff2') format('woff2'),
+        url('TTNormsProExp-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-BlkIt.woff2') format('woff2'),
+        url('TTNormsProExp-BlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Bd.woff2') format('woff2'),
+        url('TTNormsProExp-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp ExtraBlack';
+    src: url('TTNormsProExp-XBlk.woff2') format('woff2'),
+        url('TTNormsProExp-XBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-DmBd.woff2') format('woff2'),
+        url('TTNormsProExp-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-DmBdIt.woff2') format('woff2'),
+        url('TTNormsProExp-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp ExtraBlack';
+    src: url('TTNormsProExp-XBlkIt.woff2') format('woff2'),
+        url('TTNormsProExp-XBlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-XBd.woff2') format('woff2'),
+        url('TTNormsProExp-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*2nd close*/
+
+/*3rd start*/
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-It.woff2') format('woff2'),
+        url('TTNormsProMono-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-XLt.woff2') format('woff2'),
+        url('TTNormsProExp-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Md.woff2') format('woff2'),
+        url('TTNormsProExp-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp Normal';
+    src: url('TTNormsProExp-Normal.woff2') format('woff2'),
+        url('TTNormsProExp-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Lt.woff2') format('woff2'),
+        url('TTNormsProExp-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-XLtIt.woff2') format('woff2'),
+        url('TTNormsProExp-XLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-MdIt.woff2') format('woff2'),
+        url('TTNormsProExp-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-It.woff2') format('woff2'),
+        url('TTNormsProExp-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-LtIt.woff2') format('woff2'),
+        url('TTNormsProExp-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Th.woff2') format('woff2'),
+        url('TTNormsProExp-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro ExtraBlack';
+    src: url('TTNormsPro-XBlk.woff2') format('woff2'),
+        url('TTNormsPro-XBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-ThIt.woff2') format('woff2'),
+        url('TTNormsProExp-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro ExtraBlack';
+    src: url('TTNormsPro-XBlkIt.woff2') format('woff2'),
+        url('TTNormsPro-XBlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp Normal';
+    src: url('TTNormsProExp-NormalIt.woff2') format('woff2'),
+        url('TTNormsProExp-NormalIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Exp';
+    src: url('TTNormsProExp-Rg.woff2') format('woff2'),
+        url('TTNormsProExp-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-XBd.woff2') format('woff2'),
+        url('TTNormsPro-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-XBdIt.woff2') format('woff2'),
+        url('TTNormsPro-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Lt.woff2') format('woff2'),
+        url('TTNormsPro-Lt.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -126,26 +707,35 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-ThinItalic.woff2') format('woff2'),
-        url('TTNormsPro-ThinItalic.woff') format('woff');
-    font-weight: 100;
+    src: url('TTNormsPro-XLtIt.woff2') format('woff2'),
+        url('TTNormsPro-XLtIt.woff') format('woff');
+    font-weight: 200;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Thin.woff2') format('woff2'),
-        url('TTNormsPro-Thin.woff') format('woff');
-    font-weight: 100;
+    src: url('TTNormsPro-It.woff2') format('woff2'),
+        url('TTNormsPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-XLt.woff2') format('woff2'),
+        url('TTNormsPro-XLt.woff') format('woff');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-LightItalic.woff2') format('woff2'),
-        url('TTNormsPro-LightItalic.woff') format('woff');
+    src: url('TTNormsPro-LtIt.woff2') format('woff2'),
+        url('TTNormsPro-LtIt.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -153,10 +743,187 @@
 
 @font-face {
     font-family: 'TT Norms Pro';
-    src: url('TTNormsPro-Regular.woff2') format('woff2'),
-        url('TTNormsPro-Regular.woff') format('woff');
+    src: url('TTNormsPro-MdIt.woff2') format('woff2'),
+        url('TTNormsPro-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Md.woff2') format('woff2'),
+        url('TTNormsPro-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-Bd.woff2') format('woff2'),
+        url('TTNormsProMono-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-BdIt.woff2') format('woff2'),
+        url('TTNormsProMono-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-DmBd.woff2') format('woff2'),
+        url('TTNormsProMono-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-DmBdIt.woff2') format('woff2'),
+        url('TTNormsProMono-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-XLtIt.woff2') format('woff2'),
+        url('TTNormsProMono-XLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-XLt.woff2') format('woff2'),
+        url('TTNormsProMono-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*3rd close*/
+
+/*4rth start*/
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-Lt.woff2') format('woff2'),
+        url('TTNormsProMono-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-Md.woff2') format('woff2'),
+        url('TTNormsProMono-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-LtIt.woff2') format('woff2'),
+        url('TTNormsProMono-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Normal';
+    src: url('TTNormsPro-NormalIt.woff2') format('woff2'),
+        url('TTNormsPro-NormalIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-Rg.woff2') format('woff2'),
+        url('TTNormsProMono-Rg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-Thin.woff2') format('woff2'),
+        url('TTNormsProMono-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-ThIt.woff2') format('woff2'),
+        url('TTNormsProMono-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Normal';
+    src: url('TTNormsPro-Normal.woff2') format('woff2'),
+        url('TTNormsPro-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro Mono';
+    src: url('TTNormsProMono-MdIt.woff2') format('woff2'),
+        url('TTNormsProMono-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Rg.woff2') format('woff2'),
+        url('TTNormsPro-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-ThIt.woff2') format('woff2'),
+        url('TTNormsPro-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('TTNormsPro-Th.woff2') format('woff2'),
+        url('TTNormsPro-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*4rth close*/
